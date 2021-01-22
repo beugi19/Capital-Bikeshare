@@ -34,4 +34,6 @@ Therefore, I would suggest Capital Bikeshare to reinforce the bike service on wo
 
 ## Second part: data from 2019
 
+The second part of the project involved taking data directly from the company website (https://www.capitalbikeshare.com/system-data) and trying to set up a database with all relevant info, along with the main meteorological data.
+
 ## Third part: data from 2021
