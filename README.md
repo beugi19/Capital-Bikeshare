@@ -11,7 +11,11 @@ c) How does weather affect the number of rides?
 
 d) What about air pollution and rush hour traffic?
 
-## First part: data from 2011-12
+## Technical details
+
+The programming language used was Python 3.7.7 64-bit. The following packages were used: pandas, numpy, seaborn, matplotlib.pyplot, scikit-learn, statsmodels, plotly, datetime, holidays
+
+## First part: data from 2011-12 (bike1.iypnb)
 
 In the first part, I analyzed data from 2011-12, already available in database form from https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset.
 
