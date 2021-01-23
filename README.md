@@ -17,9 +17,10 @@ The programming language used was Python 3.7.7 64-bit. The following packages we
 
 ## First part: data from 2011-12 (bike1.iypnb)
 
-In the first part, I analyzed data from 2011-12, already available in database form from https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset.
+In the first part, I analyzed data from 2011-12, already available in database form from https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset, which contains also the main renormalized hour-by-hour meteo values.
 
-Using pairplots, barplots, the correlation matrix and scatterplots, with Python 3.7.7
+Using pairplots, barplots, the correlation matrix and scatterplots, with Python 3.7.7.
+
 The achieved results were the following:
 1) Registered users use the service mainly during the summer and fall. 
 Their demand is remarkably lower on holidays, and in addition to that they use the service the most between Tuesday and Thursday, the least on Sundays. Moreover, the usage of the bikeshare is clearly enhanced by high temperatures: all else being equal, every degree attracts an extra 180 registered users per hour. 
