@@ -1,6 +1,6 @@
 # Bike sharing project: Capital Bikeshare
 ## Introduction
-The aim of this project is to do analysis on the data by Capital Bikeshare, a company operating a bike share in Washington DC, using several different machine learning methods.
+The aim of this project is to do analysis on the data by Capital Bikeshare, a company operating a bike sharing service in Washington DC, using several different machine learning methods.
 The following questions are in the focus:
 
 a) How can we make sure that registered users always find a bike to ride when they need it?
@@ -35,7 +35,7 @@ Therefore, I would suggest Capital Bikeshare to reinforce the bike service on wo
 
 ## Second part: data from 2019
 
-The second part of the project involved taking data directly from the company website (https://www.capitalbikeshare.com/system-data) and trying to set up a database with all relevant info, along with the main meteorological data.
+The second part of the project involved taking data directly from the company website (https://www.capitalbikeshare.com/system-data) and trying to set up a database with all relevant info, along with the main meteorological data (average temperature, wind speed, precipitation). 
 
 ## Third part: data from 2021
 
