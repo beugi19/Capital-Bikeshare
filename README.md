@@ -35,7 +35,7 @@ Therefore, I would suggest Capital Bikeshare to reinforce the bike service on wo
 
 ## Second part: data from 2019
 
-The second part of the project involved taking data directly from the company website (https://www.capitalbikeshare.com/system-data) and trying to set up a database with all relevant info, along with the main meteorological data (average temperature, wind speed, precipitation). The data were then analyzed hour-by-hour to see whether there is an daily/weekly trend which influences the whole time series (there is!) Moreover, time series analysis allowed us to remove the seasonality component, and the generic trend then appears more clearly: rides are more frequent during the central months of the year.
+The second part of the project involved taking data directly from the company website (https://www.capitalbikeshare.com/system-data) and trying to set up a database with all relevant info, along with the main meteorological data (average temperature, wind speed, precipitation). The data were then analyzed hour-by-hour to see whether there is an daily/weekly trend which influences the whole time series (there is!) Moreover, time series analysis allowed us to remove the seasonality component, and the generic trend then appears more clearly: rides are more frequent during the central months of the year. It was furthermore possible to subdivide the stations into three groups (low, medium and high bike turnover).
 
 ## Third part: data from 2021
 
