@@ -40,4 +40,4 @@ The second part of the project involved taking data directly from the company we
 ## Third part: data from 2021
 
 The third part focused on the usage of real-time data from https://gbfs.capitalbikeshare.com/gbfs/gbfs.json, which is in .json format.
-This database has extensive information according to which it was possible to look at, for instance, the latitudes and longitudes of the bike-sharing stations. Thus, making clear where a bike drain is in progress.
+This database has extensive information according to which it was possible to look at, for instance, the latitudes and longitudes of the bike-sharing stations. Then, we could compare the data with the 2019 ones, making clear where a bike drain is in progress (that is, which stations continuously bikes being transported to)
