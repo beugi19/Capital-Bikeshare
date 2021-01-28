@@ -33,6 +33,8 @@ Therefore, I would suggest Capital Bikeshare to reinforce the bike service on wo
 
 4) According to several reports, the rush hour in Washington DC, which can cause significant congestion, is between 3 and 7 pm. This might be a cause why more users cycle in the late afternoon and evening than in the morning. Moreover, air quality in Washington is worst between May and August. This reflects in the fact that, all other things being equal, your bike service is less used in July and August than in September and October.
 
+Another very important part of the project is to do several types of regression in order to guess the number of bikes rented on a particular day. Linear Regression, K-nearest neighbors, Naive Bayes, and Random Forest were all taken into consideration.
+
 ## Second part: data from 2019
 
 The second part of the project involved taking data directly from the company website (https://www.capitalbikeshare.com/system-data) and trying to set up a database with all relevant info, along with the main meteorological data (average temperature, wind speed, precipitation). The data were then analyzed hour-by-hour to see whether there is an daily/weekly trend which influences the whole time series (there is!). Moreover, time series analysis allowed us to remove the seasonality component, and the generic trend then appears more clearly: rides are more frequent during the central months of the year. It was furthermore possible to subdivide the stations into three groups (low, medium and high bike turnover).
