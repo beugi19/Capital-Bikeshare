@@ -47,4 +47,4 @@ This database has extensive information according to which it was possible to lo
 
 ## Fourth part: building an app
 
-Now, it is the time to leave Python and build an app giving predictions. For this, we use Flask.
+Now, it is the time to leave Python and build an app giving predictions. For this, we use Flask. We want the app to take all possible data (hour, weather, season etc.) and give an accurate prediction of rented bikes per hour. The prediction is done using random forest regression, while the interface needs to be setup in .html format.
