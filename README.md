@@ -51,4 +51,4 @@ This database has extensive information according to which it was possible to lo
 ## Fourth part: building an app
 
 Now, it is the time do something more complicated than simple data analysis and build an app giving predictions. We want the app to take all possible data (hour, weather, season etc.) and give an accurate prediction of rented bikes per hour. The prediction is done using random forest regression, while the interface needs to be setup in .html format. 
-The app was made with Flask. It takes an input of weekday, hour, weather condition and
+The app was made with Flask. It takes an input of weekday, hour, weather condition, wind speed and temperature, plus saying whether it is a holiday or not, and gives a prediction of bike usage within the hour.
