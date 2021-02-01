@@ -1,4 +1,11 @@
 # Bike sharing project: Capital Bikeshare
+
+## File Description
+
+bike1.ipynb: Insights on bike share usage between 2011 and 2012
+bike2.ipynb: Insights on 2019-20 bike usage
+bike3.ipynb: Insights on 2021 bike usage
+
 ## Introduction
 The aim of this project is to do analysis on the data by Capital Bikeshare, a company operating a bike sharing service in Washington DC, using several different machine learning methods.
 The following questions are in the focus:
