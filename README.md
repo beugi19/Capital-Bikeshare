@@ -35,10 +35,13 @@ Therefore, I would suggest Capital Bikeshare to reinforce the bike service on wo
 
 Another very important part of the project is to do several types of regression in order to guess the number of bikes rented on a particular day. Linear Regression, K-nearest neighbors, Naive Bayes, and Random Forest were all taken into consideration.
 
-## Second part: data from 2019
+The best predictors of high request of bikes were high temperature and low humidity, where the plots showing the correlation were striking.
+
+## Second part: data from 2019-20
 
 The second part of the project involved taking data directly from the company website (https://www.capitalbikeshare.com/system-data) and trying to set up a database with all relevant info, along with the main meteorological data (average temperature, wind speed, precipitation). The data were then analyzed hour-by-hour to see whether there is an daily/weekly trend which influences the whole time series (there is!). Moreover, time series analysis allowed us to remove the seasonality component, and the generic trend then appears more clearly: rides are more frequent during the central months of the year. It was furthermore possible to subdivide the stations into three groups (low, medium and high bike turnover).
 The next goal is to use these data in order to find the KPI's of the business.
+One very important part of the data analysis is to measure business growth. By analyzing the 2011, 2012 and 2019 data, I saw that the 2011-12 growth was 64% and the 2012-19 growth was 66% - the service stabilizing at high numbers. The effects of the Covid-19 pandemic were also taken into consideration by comparing data from May 2019 and May 2020. The 2020 data were 50-60% smaller.
 
 ## Third part: data from 2021
 
@@ -47,4 +50,5 @@ This database has extensive information according to which it was possible to lo
 
 ## Fourth part: building an app
 
-Now, it is the time do something more complicated than simple data analysis and build an app giving predictions. For this, we use Flask. We want the app to take all possible data (hour, weather, season etc.) and give an accurate prediction of rented bikes per hour. The prediction is done using random forest regression, while the interface needs to be setup in .html format.
+Now, it is the time do something more complicated than simple data analysis and build an app giving predictions. We want the app to take all possible data (hour, weather, season etc.) and give an accurate prediction of rented bikes per hour. The prediction is done using random forest regression, while the interface needs to be setup in .html format. 
+The app was made with Flask. It takes an input of weekday, hour, weather condition and
