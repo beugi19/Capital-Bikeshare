@@ -10,6 +10,8 @@ bike3.ipynb: Insights on 2021 bike usage
 
 app.py: App giving a prediction on shared bikes
 
+index.html: Website that is called up when the app runs
+
 ## Introduction
 The aim of this project is to do analysis on the data by Capital Bikeshare, a company operating a bike sharing service in Washington DC, using several different machine learning methods.
 The following questions are in the focus:
