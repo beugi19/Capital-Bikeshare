@@ -65,7 +65,7 @@ This is probably due to the fact that, while it is still possible to run errands
 The third part focused on the usage of real-time data from https://gbfs.capitalbikeshare.com/gbfs/gbfs.json, which is in .json format.
 This database has extensive information according to which it was possible to look at, for instance, the latitudes and longitudes of the bike-sharing stations. Then, we could compare the data with the 2019 ones, making clear where a bike drain is in progress (that is, which stations continuously bikes being transported to). 
 
-## Fourth part: building an app
+## Fourth part: building a prediction app
 
 Now, it is the time do something more complicated than simple data analysis and build an app giving predictions. We want the app to take all possible data (hour, weather, season etc.) and give an accurate prediction of rented bikes per hour. The prediction is done using random forest regression, while the interface needs to be setup in .html format. 
 The app was made with Flask. It takes an input of weekday, hour, weather condition, wind speed and temperature, plus saying whether it is a holiday or not, and gives a prediction of bike usage within the hour.
