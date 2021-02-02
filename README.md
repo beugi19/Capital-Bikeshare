@@ -54,6 +54,12 @@ The second part of the project involved taking data directly from the company we
 The next goal is to use these data in order to find the KPI's of the business.
 One very important part of the data analysis is to measure business growth. By analyzing the 2011, 2012 and 2019 data, I saw that the 2011-12 growth was 64% and the 2012-19 growth was 66% - the service stabilizing at high numbers. The effects of the Covid-19 pandemic were also taken into consideration by comparing data from May 2019 and May 2020. The 2020 data were 50-60% smaller.
 
+Two further insights were extremely interesting:
+1) The total traffic from registered users dropped significantly, however the traffic from casual users only slightly;
+2) On weekends, the traffics were approximately the same, while on working days the 2020 data are clearly lower.
+
+This is probably due to the fact that, while it is still possible to run errands and go for a Sunday bike ride (no hard lockdown), many more people worked from home in 2020 than in 2019. 
+
 ## Third part: data from 2021
 
 The third part focused on the usage of real-time data from https://gbfs.capitalbikeshare.com/gbfs/gbfs.json, which is in .json format.
