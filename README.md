@@ -58,7 +58,7 @@ Two further insights were extremely interesting:
 1) The total traffic from registered users dropped significantly, however the traffic from casual users only slightly;
 2) On weekends, the traffics were approximately the same, while on working days the 2020 data are clearly lower.
 
-This is probably due to the fact that, while it is still possible to run errands and go for a Sunday bike ride (no hard lockdown), many more people worked from home in 2020 than in 2019. 
+This is probably due to the fact that, while it is still possible to run errands and go for a Sunday bike ride (no hard lockdown), many more people worked from home in 2020 than in 2019, and since salaried employees make up the bulk of registered customers, their numbers dried up during the pandemic. 
 
 ## Third part: data from 2021
 
