@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Predict Bike Share Count</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    
+  </head>
+
+<body>
+ <div class="login">
+  <h1>Predict Bike Share Count</h1>
+  <br>
+  <img src="https://cdn.pixabay.com/photo/2019/05/11/22/09/bike-sharing-4196725_960_720.jpg" alt="Health Insurance" style="vertical-align:middle" width="300" height="200">
+  <br>
+  <br>
+  <br>
+  <!-- Form to enter new data for predictions  -->
+    <form action="{{ url_for('predict')}}"method="POST">
+
+        
+        <label for="Is_Holiday">Is it a Holiday?</label>
+        <select name="Is_Holiday" id="Is_Holiday">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+
+        <script type="text/javascript">
+          document.getElementById('Is_Holiday').value = "<?php if (isset($_POST['Is_Holiday'])) echo $_GET['Is_Holiday'];?>";
+        </script>
+
+        <br>
+        <br>
+
+        <label for="temp">Temperature in Celsius:</label>
+        <input type="number" id="temp" name="temp" placeholder="temp" required="required" min="-10" max="40" value = "<?php if (isset($_POST['temp'])) echo $_GET['temp'];?>"><br>
+
+        <br>
+        <label for="hum">Humidity in percent:</label>
+        <input type="number" id="hum" name="hum" placeholder="hum" required="required" min="0" max="100" value = "<?php if (isset($_POST['hum'])) echo $_GET['hum'];?>"><br>
+
+        <br>
+        <label for="windspeed">Wind speed in km/h:</label>
+        <input type="number" id="windspeed" name="windspeed" placeholder="windspeed" required="required" min="0" max="70" value = "<?php if (isset($_POST['windspeed'])) echo $_GET['windspeed'];?>"><br>
+
+        <br>
+
+        <label for="day_of_week">Day of the week:</label>
+        <select name="day_of_week" id="day_of_week">
+            <option value="Mon">Mon</option>
+            <option value="Tue">Tue</option>
+            <option value="Wed">Wed</option>
+            <option value="Thu">Thu</option>
+            <option value="Fri">Fri</option>
+            <option value="Sat">Sat</option>
+            <option value="Sun">Sun</option>
+        </select>
+
+        <script type="text/javascript">
+          document.getElementById('day_of_week').value = "<?php if (isset($_POST['day_of_week'])) echo $_GET['day_of_week'];?>";
+        </script>
+
+        <br>
+        <br>
+
+        <label for="weathersit">Weather Forecast:</label>
+        <select name="weathersit" id="weathersit">
+            <option value="Nice">Nice</option>
+            <option value="Misty">Misty</option>
+            <option value="Rainy">Rainy</option>
+            <option value="Snowy">Snowy</option>
+        </select>
+
+        <script type="text/javascript">
+          document.getElementById('weathersit').value = "<?php if (isset($_POST['weathersit'])) echo $_GET['weathersit'];?>";
+        </script>
+
+        <br>
+        <br>
+
+        <label for="season">Season:</label>
+        <select name="season" id="season">
+            <option value="Spring">Spring</option>
+            <option value="Summer">Summer</option>
+            <option value="Fall">Fall</option>
+            <option value="Winter">Winter</option>
+        </select>
+
+        <script type="text/javascript">
+          document.getElementById('season').value = "<?php if (isset($_POST['season'])) echo $_GET['season'];?>";
+        </script>
+
+        <br>
+        <br>
+
+        <label for="Hour">Hour of the Day (between 0 and 23):</label>
+        <input type="number" id="Hour" name="Hour" placeholder="Hour" required="required" min="0" max="23" value = "<?php if (isset($_POST['Hour'])) echo $_GET['Hour'];?>"><br>
+
+        <br>
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{pred}}
+   
+ </div>
+ 
+
+</body>
+</html>
