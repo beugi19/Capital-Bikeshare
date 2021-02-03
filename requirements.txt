@@ -1,0 +1,10 @@
+django
+gunicorn
+django-heroku
+sklearn.model-selection
+sklearn.preprocessing
+sklearn.ensemble
+pandas
+numpy
+pickle
+flask
