@@ -12,6 +12,8 @@ app.py: App giving a prediction on shared bikes
 
 index.html: Website that is called up when the app runs
 
+requirements.txt, run.txt: text files for the app
+
 ## Introduction
 The aim of this project is to do analysis on the data by Capital Bikeshare, a company operating a bike sharing service in Washington DC, using several different machine learning methods.
 The following questions are in the focus:
@@ -71,3 +73,4 @@ This database has extensive information according to which it was possible to lo
 
 Now, it is the time do something more complicated than simple data analysis and build an app giving predictions. We want the app to take all possible data (hour, weather, season etc.) and give an accurate prediction of rented bikes per hour. The prediction is done using random forest regression, while the interface needs to be setup in .html format. 
 The app was made with Flask. It takes an input of weekday, hour, weather condition, wind speed and temperature, plus saying whether it is a holiday or not, and gives a prediction of bike usage within the hour.
+The app can be found on https://bike-prevision.herokuapp.com
