@@ -26,6 +26,8 @@ c) How does weather affect the number of rides?
 
 d) What about air pollution and rush hour traffic?
 
+e) What are the effects of the Covid-19 pandemic?
+
 ## Technical details
 
 The programming language used was Python 3.7.7 64-bit. The following packages were used: pandas, numpy, seaborn, matplotlib.pyplot, scikit-learn, statsmodels, plotly, datetime, holidays, flask.
