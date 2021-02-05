@@ -70,7 +70,7 @@ This is probably due to the fact that, while it is still possible to run errands
 
 The third part focused on the usage of real-time data from https://gbfs.capitalbikeshare.com/gbfs/gbfs.json, which is in .json format.
 This database has extensive information according to which it was possible to look at, for instance, the latitudes and longitudes of the bike-sharing stations. Then, we could compare the data with the 2019 ones, making clear where a bike drain is in progress (that is, which stations continuously bikes being transported to). 
-The data show that there are some stations, mainly in the city center, where bikes are taken more frequently than they are returned. This will cost the bikesharing company hefty fees in bike transportation and thus should be avoided.
+The data show that there are some stations, mainly in the city center, where bikes are taken more frequently than they are returned. This will cost the bikesharing company hefty fees in bike transportation and thus should be avoided, for instance, by making rides away from the bike drain hotspots cost extra.
 
 ## Fourth part: building a prediction app
 
