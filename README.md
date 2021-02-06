@@ -3,6 +3,7 @@
 ## File Description
 
 bike1.ipynb: Insights on bike share usage between 2011 and 2012
+hour.csv: corresponding .csv file
 
 bike2.ipynb: Insights on 2019-20 bike usage
 
