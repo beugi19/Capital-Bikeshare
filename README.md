@@ -10,6 +10,8 @@ bike3.ipynb: Insights on 2021 bike usage
 
 app.py: App giving a prediction on shared bikes
 
+model.py: The model our app works on
+
 index.html: Website that is called up when the app runs
 
 requirements.txt, run.txt: text files for the app
