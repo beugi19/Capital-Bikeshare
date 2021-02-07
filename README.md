@@ -3,6 +3,7 @@
 ## File Description
 
 bike1.ipynb: Insights on bike share usage between 2011 and 2012
+
 hour.csv: corresponding .csv file
 
 bike2.ipynb: Insights on 2019-20 bike usage
@@ -18,7 +19,7 @@ index.html: Website that is called up when the app runs
 requirements.txt, run.txt: text files for the app
 
 ## Introduction
-The aim of this project is to do analysis on the data by Capital Bikeshare, a company operating a bike sharing service in Washington DC, using several different machine learning methods.
+The aim of this project is to do analysis on the data by Capital Bikeshare, a company operating a bike sharing service in Washington DC, using several different machine learning methods, in order to be able to locate KPI's and to give suggestions.
 The following questions are in the focus:
 
 a) How can we make sure that registered users always find a bike to ride when they need it?
