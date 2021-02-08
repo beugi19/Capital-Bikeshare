@@ -36,7 +36,7 @@ e) What are the effects of the Covid-19 pandemic?
 
 ## Technical details
 
-The programming language used was Python 3.7.7 64-bit. The following packages were used: pandas, numpy, seaborn, matplotlib.pyplot, scikit-learn, statsmodels, plotly, datetime, holidays, flask.
+The programming language used was Python 3.7.7 64-bit. The following packages were used: pandas, numpy, seaborn, matplotlib.pyplot, scikit-learn, statsmodels, plotly, datetime, holidays, flask, prophet.
 
 ## First part: data from 2011-12 (bike1.iypnb)
 
