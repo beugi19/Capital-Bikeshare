@@ -16,6 +16,8 @@ model.py: The model our app works on
 
 index.html: Website that is called up when the app runs
 
+temp.html, hum.html: interactive plots
+
 requirements.txt, run.txt: text files for the app
 
 ## Introduction
@@ -69,6 +71,8 @@ Two further insights were extremely interesting:
 2) On weekends, the traffics were approximately the same, while on working days the 2020 data are clearly lower.
 
 This is probably due to the fact that, while it is still possible to run errands and go for a Sunday bike ride (no hard lockdown), many more people worked from home in 2020 than in 2019, and since salaried employees make up the bulk of registered customers, their numbers dried up during the pandemic. 
+
+Moreover, the full 2019-20 data were used to give a long-time prognosis using Facebook Prophet. The prognosis is rather bleak.
 
 ## Third part: data from 2021
 
