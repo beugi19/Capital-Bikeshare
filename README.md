@@ -1,5 +1,19 @@
 # Bike sharing project: Capital Bikeshare
 
+## Introduction
+The aim of this project is to do analysis on the data by Capital Bikeshare, a company operating a bike sharing service in Washington DC, using several different machine learning methods, in order to be able to locate KPI's and to give suggestions.
+The following questions are in the focus:
+
+a) How can we make sure that registered users always find a bike to ride when they need it?
+
+b) What about casual users? Do their habits differ significantly from the registered ones?
+
+c) How does weather affect the number of rides?
+
+d) What about air pollution and rush hour traffic?
+
+e) What are the effects of the Covid-19 pandemic?
+
 ## File Description
 
 bike1.ipynb: Insights on bike share usage between 2011 and 2012
@@ -19,20 +33,6 @@ index.html: Website that is called up when the app runs
 temp.html, hum.html: interactive plots
 
 requirements.txt, run.txt: text files for the app
-
-## Introduction
-The aim of this project is to do analysis on the data by Capital Bikeshare, a company operating a bike sharing service in Washington DC, using several different machine learning methods, in order to be able to locate KPI's and to give suggestions.
-The following questions are in the focus:
-
-a) How can we make sure that registered users always find a bike to ride when they need it?
-
-b) What about casual users? Do their habits differ significantly from the registered ones?
-
-c) How does weather affect the number of rides?
-
-d) What about air pollution and rush hour traffic?
-
-e) What are the effects of the Covid-19 pandemic?
 
 ## Technical details
 
