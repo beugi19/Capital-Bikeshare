@@ -14,6 +14,12 @@ d) What about air pollution and rush hour traffic?
 
 e) What are the effects of the Covid-19 pandemic?
 
+## Brief Domain Analysis
+
+The bike sharing domain is in fast growth during the past couple years. The growing needs of urban transportation have led to giant traffic jams and high pollution. To alleviate this issue, bikesharing has become increasingly popular in North America and Europe. Growing technology, such as faster payments and better GPS technology, have induced less locking and tracking costs for bikesharing company and therefore eased the market. Dockless bike sharing has become increasingly common. The major players in the bikesharing business are Uber, Ofo, and Lyft. 
+
+The sector is growing at approximately 6,5% a year. 
+
 ## File Description
 
 bike1.ipynb: Insights on bike share usage between 2011 and 2012
